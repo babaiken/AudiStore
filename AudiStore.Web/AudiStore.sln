@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudiStore", "AudiStore.csproj", "{90FAAD4D-61F7-4266-AE79-343D6CEC0B77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudiStore", "AudiStore.csproj", "{90FAAD4D-61F7-4266-AE79-343D6CEC0B77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudiStore.DAL", "..\AudiStore.Data\AudiStore.DAL.csproj", "{14135C03-4F4E-45F5-84BE-198CE23FD017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{90FAAD4D-61F7-4266-AE79-343D6CEC0B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FAAD4D-61F7-4266-AE79-343D6CEC0B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FAAD4D-61F7-4266-AE79-343D6CEC0B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14135C03-4F4E-45F5-84BE-198CE23FD017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14135C03-4F4E-45F5-84BE-198CE23FD017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14135C03-4F4E-45F5-84BE-198CE23FD017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14135C03-4F4E-45F5-84BE-198CE23FD017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
